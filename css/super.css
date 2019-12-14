@@ -391,7 +391,7 @@ p, li, li a
 {
 	padding: 0 8px;
 }
-address
+address, #year
 {
 	font-size: 9pt;
 	padding: 15px 0;
