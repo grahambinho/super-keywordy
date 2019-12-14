@@ -1,0 +1,346 @@
+@charset "UTF-8";
+/*Super keywordy CSS developed by Graham O'Mahony*/
+/*Copyright 2017 - 2018*/
+@media only screen and (min-width: 1201px)
+{
+main#on_page_seo
+{
+	width: 1180px;
+}
+.colx-w
+{
+	width: auto;
+}
+}
+@media only screen and (max-width: 1200px)
+{
+/*[class*="col-w"]*/
+.col-w
+{
+	width: 900px;
+}
+form
+{
+	width: 70%;
+	border-left: 0;
+}
+}
+@media only screen and (max-width: 989px)
+{
+#logo
+{
+	width: auto;
+	position: relative;
+	z-index: 99;
+	transform: translate(0, 25%);
+}
+.breadcrumb
+{
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	z-index: 0;
+}
+.breadcrumb ul
+{
+	overflow: initial;
+	white-space: nowrap;
+}
+.breadcrumb ul li
+{
+	float: none;
+}
+[class*="col-w"]
+{
+	width: 750px;
+}
+[role="navigation"] ul li
+{
+	display: inline;
+}
+[role="navigation"] a
+{
+	width: 100%;
+}
+form
+{
+	width: 100%;
+}
+aside#kw_analytics
+{
+	width: 100%;
+	float: none;
+	display: inline-block;
+}
+}
+@media only screen and (max-width: 767px)
+{
+/*Header*/
+header
+{
+	padding: 0;
+}
+.navbar
+{
+	width: 100%;
+	right: 0;
+}
+#desktop li
+{
+	margin: 0;
+	width: 100%;
+}
+[role="navigation"] ul li
+{
+	display: block;
+	width: 100%;
+}
+nav ul li a
+{
+	border-radius: 0;
+	margin: 0;
+	transition: all 0.2s linear;
+}
+[role="navigation"] li a.active
+{
+	border-radius: 0;
+}
+a#supercta
+{
+	border-radius: 0;
+	border: 0;
+	background: none;
+	transition: all 0.2s linear;
+}
+a#supercta:hover
+{
+	color: #62d16f;
+	box-shadow: none;
+	background: #eee;
+}
+a#supercta.active
+{
+	opacity: 1;
+	background: #fff;
+}
+a#supercta.active:hover
+{
+	color: #545454;
+	background: #eee;
+
+}
+[class*="col-w"], .col-2, .col-2x, .col-3, .col-n, main
+{
+	width: 100%;
+	padding: 0 10px;
+	min-height: auto;
+}
+.col-2, .col-2x
+{
+	padding: 0;
+}
+aside > .col-n
+{
+	padding: 20px 10px;
+}
+#logo img
+{
+	width: 200px;
+	height: auto;
+	transition: all 0.5s linear;
+}
+#desktop
+{
+	width: 0;
+	position: absolute;
+	right: 0;
+	top: 100px;
+	transition: all 0.2s linear;
+	background: #464646;
+	z-index: 999;
+}
+#mobilenav
+{
+	width: 80px;
+	padding: 18px;
+	float: right;
+	margin: 0 12px;
+	transition: all 0.4s linear;
+}
+#mobilenav:hover
+{
+	background: #464646;
+	border-radius: 100%;
+}
+.b1, .b2, .b3
+{
+	width: 40px;
+	height: 5px;
+	margin: 7px auto;
+	background: #fff;
+	transition: 0.3s;
+}
+.animateNav .b1
+{
+	-webkit-transform: rotate(-45deg) translate(-8px, 7px);
+	transform: rotate(-45deg) translate(-8px, 7px);
+	background: #f03546;
+}
+.animateNav .b2
+{
+	opacity: 0;
+}
+.animateNav .b3
+{
+	-webkit-transform: rotate(45deg) translate(-9px, -9px);
+	transform: rotate(45deg) translate(-9px, -9px);
+	background: #f03546;
+}
+.tooltip .tooltipinfo.tooltipHead
+{
+	top: 14px;
+	left: 112px;
+}
+/*Body*/
+section
+{
+	min-height: 125px;
+	display: block;
+}
+section.subsection
+{
+	width: 100%;
+	padding: 0 10px 0 0;
+}
+section#cover
+{
+	padding: 170px 0 0;
+}
+section#cover4
+{
+	padding: 12px;
+}
+.lion
+{
+	width: auto;
+	padding: 12px;
+}
+#covParag
+{
+	margin: 45px 0 0;
+}
+.longcontent
+{
+	min-height: 200px;
+	padding: calc(5% - 10px);
+}
+#home-hero, #how-to-hero
+{
+	background-size: 200%;
+	min-height: auto;
+	background-position: 50% 70%;
+}
+#page-error, #nothing-here
+{
+	background-position: 50% 0%;
+	background-size: 250%;
+}
+main
+{
+	margin: 25px auto;
+	padding: 0;
+}
+article
+{
+}
+aside
+{
+}
+aside:first-child
+{
+	border: 0;
+	border-bottom: 1px solid #e7e1e1;
+}
+aside:last-child
+{
+	border: 0;
+	border-top: 1px solid #fff;
+}
+aside.col-2
+{
+	min-height: auto;
+}
+div#snippet, div#mobile_snippet, .mobile_frame
+{
+	width: 100%;
+}
+.mode
+{
+	width: 80%;
+	left: 10%;
+}
+/*Form*/
+form#contenttemplate
+{
+	width: 100%;
+}
+input
+{
+	width: 100%;
+}
+.basic
+{
+	width: 100%;
+	margin: 0;
+}
+section#mobile
+{
+	margin: 20px 0;
+}
+/*Footer*/
+div[class*="x2"]
+{
+	width: calc(100% - 100px);
+}
+/*Font sizes*/
+h1
+{
+	font-size: 32pt;
+}
+.error .heading
+{
+	font-size: 10em;
+}
+h2
+{
+	font-size: 19pt;
+}
+h3
+{
+	font-size: 15pt;
+}
+/*Images*/
+figure
+{
+	padding: 12px 0;
+}
+figure img
+{
+	width: 100%;
+}
+img
+{
+	width: 100%;
+	height: auto;
+}
+img.graphic
+{
+	margin: 0 auto;
+	width: 85%;
+	display: block;
+}
+img.scroll-img
+{
+	width: 32px;
+}
+}
