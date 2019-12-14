@@ -63,3 +63,7 @@ function pageScroll(){
 //   document.getElementById("empty-page").setAttribute("style", "height: " + totalHigh + "px;");
 // }, true);
 // }
+//Adds current year to the footer.
+let now = new Date(), yearNow = now.getFullYear();
+const year = document.getElementById("year");
+year.innerHTML = yearNow;
