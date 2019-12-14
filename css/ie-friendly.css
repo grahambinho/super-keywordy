@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*Super keywordy CSS for IE only developed by Graham O'Mahony*/
+/*Copyright 2017 - 2018*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+.col-w
+{
+	width: 750px;
+}
+}
+@media only screen and (min-width: 1201px) and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+.col-w
+{
+	width: auto;
+}
+}
+@media only screen and (max-width: 1200px) and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+.col-w
+{
+	width: 900px;
+}
+}
+@media only screen and (max-width: 989px) and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+.col-w
+{
+	width: 750px;
+}
+}
+@media only screen and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+.col-w, .col-2, .col-2x, .col-3, .col-n, main
+{
+	width: 100%;
+	padding: 0 10px;
+	min-height: auto;
+}
+/*Footer*/
+.x2
+{
+	width: calc(100% - 100px);
+}
+}
